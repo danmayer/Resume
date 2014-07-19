@@ -39,6 +39,7 @@ class Resume
   end
 
   def html
+    params = {}
     title = "Dan Mayer's Resume"
     base = File.join(File.dirname(__FILE__),'..')
     resume = RDiscount.new(@resume_content, :smart).to_html

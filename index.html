@@ -4,12 +4,15 @@
    <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 <body>
+   <div id='formats'>
+     Formats: <a href="/">HTML</a> | <a href='latex'>LaTeX</a> | <a href='markdown'>Markdown</a>
+   </div>
    <div id="resume">
       <p>Daniel Mayer<br/>
 dan@mayerdan.com<br/>
 503-819-3246<br/>
-821 Maryland Ave NE #305<br/>
-Washington, DC 20002</p>
+226 9th St  SE #1<br/>
+Washington, DC 20003</p>
 
 <p><a href="http://github.com/danmayer">GitHub</a><br/>
 <a href="http://mayerdan.com">Blog</a></p>
@@ -62,19 +65,19 @@ Washington, DC 20002</p>
 
 <p><strong>LivingSocial</strong><br/>
 Software Developer<br/>
-June 2010 &ndash; Current<br/>
+June 2010 - Current<br/>
 Working with a small team of developers to grow LivingSocial. Working on mobile apps, mobile site, APIs, and backend tools.</p>
 
 <p><strong>Devver</strong><br/>
 Founder / CTO / Ruby Software Developer<br/>
-April 2008 &ndash; April 2010<br/>
+April 2008 - April 2010<br/>
 Software startup to make the lives of developers easier. Originally developed accelerated testing for Ruby developers. More recently, launched getcaliper.com, which builds code analytics for all Rubygems and builds metrics for public and private git-based Ruby projects.</p>
 
 <ul>
 <li>Built accelerated testing tool, using distributed computing services to run developer tests</li>
 <li>Developed a cloud-based continuous integration server and notification services</li>
 <li>Developed cloud-based code metrics and analytics project analyzer, which integrated with Rubygems.org to provide analytics on all public Rubygems and many OSS git-based projects (7000+ projects)</li>
-<li>Member of a distributed agile team &mdash; practiced daily standups, remote pair programming, and continuous integration</li>
+<li>Member of a distributed agile team &ndash; practiced daily standups, remote pair programming, and continuous integration</li>
 <li>Worked extensively with cloud based services and distributed computing techniques. (EC2, Beanstalkd queues, Schemaless SimpleDB, S3)</li>
 <li>Developed and deployed EventMachine, Merb, Rails, and Sinatra in production environments</li>
 </ul>
@@ -82,12 +85,12 @@ Software startup to make the lives of developers easier. Originally developed ac
 
 <p><strong>Pretheory</strong><br/>
 Founder<br/>
-May 2007 &ndash; April 2008<br/>
+May 2007 - April 2008<br/>
 Small Denver-based consumer web startup. Built <a href="http://seekler.com">Seekler.com</a> to help people find the best of everything online by user generated, community-based top 10 lists on topics or products. Seekler was a social way to rank things with friends or the entire community.</p>
 
 <p><strong>Indigio</strong><br/>
 Java Lead Engineer<br/>
-August 2006 &ndash; May 2007<br/>
+August 2006 - May 2007<br/>
 Developed web sites for Fortune 500 companies. Managed a small Java team with local and international remote employees.</p>
 
 <ul>
@@ -97,7 +100,7 @@ Developed web sites for Fortune 500 companies. Managed a small Java team with lo
 
 <p><strong>Impact Science &amp; Technology (IST)</strong><br/>
 Java Software Engineer<br/>
-December 2005 &ndash; June 2006<br/>
+December 2005 - June 2006<br/>
 Developed full lifecycle of a DOD distributed synchronous infrastructure in Java.</p>
 
 <h2>Education</h2>
@@ -114,5 +117,29 @@ GPA: 3.185</p>
    <div id='footer'>
      This resume is Ruby, powered by <a href="http://github.com/danmayer/Resume">Ruby Resume</a>.
    </div>
+
+   <div class="ruby-runner-custom" style="display:none;" data-sig="IhFw4kpAHfpiBkbNv0s4ALR8tjc=" data-auto-init="false">
+     <pre class="code">
+require 'pdfkit'
+kit = PDFKit.new('http://resume.mayerdan.com/?no_pdf=true')
+file = kit.to_file('./artifacts/dan_mayer_resume.pdf')
+     </pre>
+   </div>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="http://git-hook-responder.herokuapp.com/javascript/code-runner.js" type="text/javascript"></script>
+   <script>
+     var addPDFLink = function(currentPluggin) {
+        var element = '#formats';
+        $('#formats').append(' | <a class="run-button" href="#">PDF</a>');
+	$(element).find('.run-button').click(function(e) {
+	  $(element).find('.run-button').text('generating...');
+	  currentPluggin.runExample();
+          e.preventdefault;
+	  return false;
+	});
+     };
+     $('.ruby-runner-custom').codeRunner({'initialize_method' : addPDFLink, 'follow_files' : 'true'});
+   </script>
+
 </body>
 </html>

@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby "1.8.7"
 
 gem 'rake'
 gem 'less', '1.2.20'

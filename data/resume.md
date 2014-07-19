@@ -1,8 +1,8 @@
 Daniel Mayer  
 dan@mayerdan.com  
 503-819-3246  
-821 Maryland Ave NE #305  
-Washington, DC 20002  
+226 9th St  SE #1  
+Washington, DC 20003  
 
 [GitHub](http://github.com/danmayer)  
 [Blog](http://mayerdan.com)  
