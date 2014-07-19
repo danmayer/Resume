@@ -1,5 +1,5 @@
  
 ## Just run the application
-require 'resume'
+require './resume'
 run Sinatra::Application
 
