@@ -1,50 +1,56 @@
 Daniel Mayer  
 dan@mayerdan.com  
 503-819-3246  
-226 9th St  SE #1  
-Washington, DC 20003  
+1905 East 28th Ave  
+Denver, CO 80205  
 
-[GitHub](http://github.com/danmayer)  
-[Blog](http://mayerdan.com)  
+* GitHub: [@danmayer](https://github.com/danmayer)
+* Twitter: [@danmayer](https://twitter.com/danmayer)
+* LinkedIn: [danmayer](https://www.linkedin.com/in/danmayer/)
+* Blog: [mayerdan.com](https://mayerdan.com)  
+
 
 Skills
 ----------------
 
-* Ruby
-  * Rails
-  * Sinatra
-  * Merb
-  * EventMachine
-  * DataMapper
-  * Custom EventMachine-based protocols
+* Expert Ruby
+  * Rails, Sinatra, Gems, Railties
+  * Ruby Extensions via C
+  * Low-level performance, benchmarking, etc
+
+* Casual Languages
+  * Javascript, Python, shellscript, Elixir, Clojure
 
 * Tools
-  * Linux
-  * OS X
-  * Javascript (JQuery/Prototype)
-  * HTML
-  * Amazon Web Services (Ec2, SimpleDB, S3, SQS)
-  * Distributed Computing
-  * Apache
-  * MySQL
-  * PostgreSQL
-  * Schemaless DBs (NoSql)
-  * RESTul webservice API's
+  * Amazon Web Services (EC2, ECS, Lambda, S3, SQS, Cloudformation)
+  * Jenkins, Terraform, Docker
+  * Relational DBs: PostgreSQL, MySQL, Redshift, AWS Aurora DB
+  * Schemaless DBs: Redis, Mongo
 
-* Style
-  * Pair Programming
-  * Test-Focused Development
+* Frameworks  
+  * RESTul API's (Swagger)
+  * GraphQL
+  * basic React, Angular, JQuery, etc
+  * Luigi
+
+* Process
   * Distributed Teams
-  * Agile team management
-  * Contributor to Ruby OSS software
-  * Active on Github
+  * Test-Focused Development
+  * Agile team management (PRs, code review, pairing, sprints, standups)
+  * Documentation, Jira, git workflows, etc
+  * Community involvement (confs, blogs, podcasts, contributes to OSS) 
 
 Work Experience
 ---------------
+__Zola Electric__  
+Director of Software Engineering   
+May 2015 - Current  
+Leads distributed Data Infrastructure, DevOps, and Software teams. The team cross timezones and cultures with US, Nigeria, Tanzania, Amsterdam, and Russia representing. Builds collaborative team processes and decision workflows. Documents decisions and learnings. Partner evaluation, selection, and integration plans. Initiated and planned distributed team global summits. Leads by example in the codebases as a still active Rails developer, and lightly contributes to our Python Data and DevOps infrastructure code.
+
 __LivingSocial__  
 Software Developer  
-June 2010 - Current  
-Working with a small team of developers to grow LivingSocial. Working on mobile apps, mobile site, APIs, and backend tools.  
+June 2010 - May 2015  
+Working with a small team of developers to grow LivingSocial. Working on mobile apps, mobile site, APIs, AB testing, performance, and backend tools.  
 
 __Devver__  
 Founder / CTO / Ruby Software Developer  
